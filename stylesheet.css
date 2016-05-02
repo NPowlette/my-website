@@ -1,0 +1,99 @@
+#Menu{
+	width: 100%;
+	height: 70px;
+	background-color: PaleTurquoise;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+#container{
+	width: 100%;
+	height: 600px;
+	background: ;
+	position: relative;
+	margin: auto;
+}
+
+#pic{	
+	width: 241px;
+	height: 326px;
+	position: absolute;
+	margin-top: .3px;
+	background: yellow;
+}
+
+#box{
+	width: 88.1%;
+	height: 326px;
+	margin-left: 241px;
+	font-family: 'CenturyGothic';
+	padding-left: 10px;
+	font-size: 33.5px;
+	background: LightSteelBlue;
+	position: relative;
+}
+
+#Table{
+	width: 100%;
+	height: 282px;
+	background-color: blue;
+	position: absolute;
+	font-size: 20px;
+	font-family: CenturyGothic;
+}
+#columnone{
+	width: 33.3%;
+	height:282px;
+	position: absolute;
+	background: ;
+	font-family: CenturyGothic;
+	
+}
+#columntwo{
+	width: 33.3%;
+	height:282px;
+	position: absolute;
+	background: ;
+	border: left;
+	margin-left: 33.3%;
+	font-family: CenturyGothic;
+	border-left: 3px solid black;
+}
+#columnthree{
+	width: 33.3%;
+	height: 282px;
+	position: absolute;
+	background: ;
+	margin-left: 66.6%;
+	font-family: CenturyGothic;
+	border-left: 3px solid black;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+li{
+	float: left;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change the link color to Turquoise on hover*/
+li a:hover {
+	background-color: Turquoise;
+}
+
+li a{
+	display: block;
+	text-align: center;
+	padding: 13px 20px;
+	float: left;
+	font-style: bold;
+	font-family: CenturyGothic;
+}
+h3{
+	text-decoration: underline;
+}
